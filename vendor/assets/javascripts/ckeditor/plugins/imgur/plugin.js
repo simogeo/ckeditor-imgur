@@ -1,7 +1,7 @@
 ( function() {
     CKEDITOR.plugins.add( 'imgur',
         {
-            lang: ['zh', 'en'],
+            lang: ['zh', 'en', 'fr'],
             init: function( editor )
             {
                 ClientID = editor.config.imgurClientID;
